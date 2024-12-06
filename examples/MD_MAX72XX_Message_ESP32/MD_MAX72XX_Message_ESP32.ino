@@ -56,8 +56,8 @@ MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 //MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, DATA_PIN, CLK_PIN, CS_PIN, MAX_DEVICES);
 
 // WiFi login parameters - network name and password
-const char ssid[] = "";
-const char password[] = "";
+const char ssid[] = "darcy";
+const char password[] = "Darcy@2021";
 
 // WiFi Server object and parameters
 WiFiServer server(80);
